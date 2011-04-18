@@ -21,7 +21,8 @@
 					<?php the_excerpt() ?>
 				</div>
 		
-				<p class="postmetadata"><?php _e('Posted in','whiteasmilk'); ?> <?php the_category(', ') ?> <strong>|</strong> <?php edit_post_link(__('Edit','whiteasmilk'),'','<strong>|</strong>'); ?>  <?php comments_popup_link(__('Leave a Comment &#187;','whiteasmilk'),__('1 Comment &#187;','whiteasmilk'),__('% Comments &#187;','whiteasmilk')); ?><br /><?php the_tags('Tags: ', ', ', '<br />'); ?></p> 
+                <p class="postmetadata"><?php _e('Posted in','whiteasmilk'); ?> <?php the_category(', ') ?> <strong>|</strong> <?php edit_post_link(__('Edit','whiteasmilk'),'','<strong>|</strong>'); ?>  <?php comments_popup_link(__('Leave a Comment &#187;','whiteasmilk'),__('1 Comment &#187;','whiteasmilk'),__('% Comments &#187;','whiteasmilk')); ?><br /><?php the_tags('Tags: ', ', ', '<br />'); ?></p> 
+                <hr>
 			</div>
 	
 		<?php endwhile; ?>
