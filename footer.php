@@ -27,6 +27,7 @@
 -->
 </div>
 </div>
+<a href="http://emilis.github.com" title="My english blog about programming."><img style="position: absolute; top: 0; right: 0; border: 0;" src="/wp-content/themes/emilisinfo/english-blog.gif" alt="My English blog about programming."></a>
 
 		<?php wp_footer(); ?>
 
