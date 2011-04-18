@@ -15,7 +15,7 @@ add_theme_support( 'automatic-feed-links' );
 
 add_custom_background();
 
-function whiteasmilk_comment($comment, $args, $depth) {
+function emilisinfo_comment($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment;
 	extract($args, EXTR_SKIP);
 ?>

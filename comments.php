@@ -12,7 +12,7 @@ if (have_comments()) : ?>
 	<h3 id="comments"><?php comments_number(__('No Responses Yet','whiteasmilk'),__('One Response','whiteasmilk'),__('% Responses','whiteasmilk'));?> <?php _e('to','whiteasmilk'); ?> &#8220;<?php the_title(); ?>&#8221;</h3> 
 
 	<ol class="commentlist">
-	<?php wp_list_comments(array('callback'=>'whiteasmilk_comment')); ?>
+	<?php wp_list_comments(array('callback'=>'emilisinfo_comment')); ?>
 	</ol>
 
 	<div class="navigation">
